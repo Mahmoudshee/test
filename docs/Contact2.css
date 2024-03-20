@@ -1,0 +1,57 @@
+body {
+    background-image: url(form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+p {
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: 0cap;
+}
+button {
+    background-color: skyblue;
+    color: rgba(0, 0, 0, 0.644);
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+h1 {
+    margin-left: 30px;
+    color: wheat;
+}
+
+.navbar {
+    background: rgba(245, 245, 245, 0.105);
+    font-family: Calibri;
+     padding-right: 15px; 
+     padding-left: 15px;
+ }
+ .navdiv {
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+ }
+ li {
+     list-style: none;
+     display: inline-block;
+ }
+ li a{
+     color: skyblue;
+     font-size: 20px;
+     font-weight: bold;
+     margin-right: 10px;
+ }
+ .logo a {
+     font-size: 30px;
+     font-weight: bolder;
+     color: skyblue;
+ }
+ *{
+     text-decoration: none;
+ }

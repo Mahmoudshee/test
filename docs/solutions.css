@@ -1,0 +1,80 @@
+body {
+    background-image: url(solutio1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+   background: rgba(245, 245, 245, 0.105);
+   font-family: Calibri;
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+.navdiv {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: bolder;
+    color: wheat;
+}
+*{
+    text-decoration: none;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;  
+}
+
+.item {
+    text-align: center;
+}
+
+img {
+    width: 20px; /* Adjust size as needed */
+    border-radius: 40px; /* Add rounded corners to the images */
+    margin-bottom: 20px; /* Add spacing between the image and paragraph */
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px; /* Add spacing between the image and paragraph */
+    color: navy; /* Add color to the paragraphs */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+}
+
+a:hover {
+    color: skyblue; /* Change color on hover */
+}
+h1 {
+    color: wheat;
+}
+p {
+    color: white;
+}
+h3 {
+    color: whitesmoke;
+}
+em {
+    font-weight: bold;
+    color: rgba(255, 222, 173, 0.662);
+}
